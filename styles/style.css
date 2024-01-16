@@ -1,0 +1,21 @@
+.banner-section {
+  border-radius: 16px;
+  margin: 0 auto;
+  width: 1110px;
+  height: 500px;
+  background-image: linear-gradient(
+      180deg,
+      rgb(77, 77, 94),
+      rgba(66, 66, 82, 0)
+    ),
+    url('../Images/banner.png');
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  margin: 0 auto;
+  gap: 1px;
+}
