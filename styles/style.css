@@ -273,3 +273,58 @@ main {
   top: 99px;
   left: 180px;
 }
+/* why choose us style */
+.choose-section {
+  padding-bottom: 20px;
+}
+.heading-text-container {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.section-heading {
+  color: #131318;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 26px; /* 162.5% */
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+.card1,
+.card2,
+.card3 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  width: 573px;
+  height: 284px;
+  padding: 30px;
+}
+.card2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.card3-conteinar {
+  padding-left: 250px;
+}
+.card3 {
+  margin: 20px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.card1 h1,
+.card2 h1,
+.card3 h1 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
