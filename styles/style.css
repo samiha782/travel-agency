@@ -5,12 +5,16 @@
   margin: 0;
   font-family: 'Mulish', sans-serif;
 }
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 /* banner */
 .banner-section {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   height: 500px;
   border-radius: 16px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .banner-img {
   width: 100%;
@@ -103,13 +107,15 @@
 }
 /* tour section */
 .tour-section {
-  max-width: 1100px;
-  margin: 0 auto;
+  /* max-width: 1100px;
+  margin: 0 auto; */
   padding: 10px 0px;
   display: flex;
+  gap: 10px;
 }
 .tour-container {
   /* border: 2px solid aqua; */
+  width: 50%;
 }
 .tour-heading {
   color: #131318;
@@ -135,7 +141,45 @@
   padding: 5px;
 }
 .tour-img {
-  max-width: 50%;
-  max-height: 50%;
+  width: 45%;
+  max-height: 45%;
   /* border: 4px solid rgb(127, 127, 11); */
+}
+/* destination style */
+.destination-heading {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 800;
+}
+.destination-description {
+  width: 800;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 20px;
+  /* border: 2px solid rebeccapurple; */
+  padding-bottom: 30px;
+}
+.img-container-1 {
+  display: flex;
+  gap: 20px;
+}
+.maldive-img-container {
+  width: 60%;
+  /* border: 2px solid red; */
+}
+.maldive-img-container img {
+  width: 100%;
+}
+.indonesia-img-container {
+  width: 60%;
+  /* border: 2px solid red; */
+}
+.indonesia-img-container img {
+  width: 100%;
 }
