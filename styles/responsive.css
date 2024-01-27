@@ -3,17 +3,39 @@
     /* margin: 0;
     padding: 0; */
   }
-  .banner-section1 {
+  nav {
+    /* flex-direction: column; */
+    padding-bottom: 20px;
+    padding-left: 10px;
+    gap: 20px;
+    /* border: 3px solid rebeccapurple; */
   }
+  .hide {
+    display: none;
+  }
+  .frame-div {
+    /* border: 2px solid peru; */
+    padding-left: 240px;
+    padding-top: 20px;
+    display: block;
+  }
+  .frame-div i {
+    display: block;
+  }
+  /* banner */
   .banner-section {
     flex-direction: nowrap;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
+    /* border: 2px solid peru; */
   }
   .text-div {
     width: 100%;
     padding-left: 10px;
     padding-top: 30px;
+    /* border: 2px solid firebrick; */
+    padding-top: 270px;
   }
   .banner-section img {
     width: 100%;
