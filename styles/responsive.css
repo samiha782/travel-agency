@@ -3,6 +3,8 @@
     /* margin: 0;
     padding: 0; */
   }
+  .banner-section1 {
+  }
   .banner-section {
     flex-direction: nowrap;
     justify-content: center;
@@ -10,8 +12,8 @@
   }
   .text-div {
     width: 100%;
-    padding-left: 30px;
-    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 30px;
   }
   .banner-section img {
     width: 100%;
@@ -19,11 +21,11 @@
     padding: 15px;
   }
   .heading {
+    width: 70%;
     font-size: 12px;
     padding: 0;
     margin: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-left: 130px;
     /* border: 2px solid palevioletred; */
   }
   .banner-description {
@@ -63,7 +65,7 @@
   }
   .tour-heading {
     color: #131318;
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
     font-weight: 800;
   }
@@ -170,5 +172,16 @@
     width: 260px;
     top: 260px;
     left: 310px;
+  }
+  .footer-description {
+    padding: 15px 10px;
+  }
+  .social-img {
+    padding-top: 70px;
+    padding-left: 215px;
+  }
+  .footer-hr {
+    width: 90%;
+    margin-left: 30px;
   }
 }
