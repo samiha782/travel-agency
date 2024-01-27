@@ -149,4 +149,26 @@
     margin: 0px;
     border: 0px;
   }
+  .newsletter-section {
+    flex-direction: column;
+  }
+  .newsletter-container {
+    /* width: 100%; */
+    width: 550px;
+    height: 453px;
+    padding-left: 80px;
+    padding-top: 70px;
+    margin-left: 30px;
+  }
+  .newsletter-div {
+    /* padding: 30px; */
+  }
+  .newsletter-img img {
+    padding: 20px;
+  }
+  .discount {
+    width: 260px;
+    top: 260px;
+    left: 310px;
+  }
 }
