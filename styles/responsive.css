@@ -23,12 +23,14 @@
     padding: 0;
     margin: 0;
     margin-top: 10px;
+    margin-bottom: 10px;
     /* border: 2px solid palevioletred; */
   }
   .banner-description {
     font-size: 14px;
     width: 350px;
     margin-top: 5px;
+    margin-bottom: 20px;
     padding-bottom: 0;
   }
   .input-section {
@@ -58,5 +60,74 @@
   }
   .tour-img {
     padding-left: 12px;
+  }
+  .tour-heading {
+    color: #131318;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .img-container-1,
+  .img-container-2,
+  .img-container-3 {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+  }
+  .maldive-img-container,
+  .indonesia-img-container,
+  .srilanka-img-container,
+  .america-img-container,
+  .kashmir-img-container,
+  .bangladesh-img-container {
+    width: 100%;
+    /* padding-top: 20px; */
+    margin: 0;
+    gap: 0;
+  }
+  .srilanka-img-container,
+  .america-img-container,
+  .kashmir-img-container,
+  .bangladesh-img-container,
+  .bandarban-img-container {
+    height: 320px;
+  }
+  .srilanka-img-container img,
+  .kashmir-img-container img,
+  .bangladesh-img-container img,
+  .america-img-container img,
+  .bandarban-img-container img {
+    height: 320px;
+    padding: 0;
+    margin: 0;
+  }
+  .america-img-container img {
+    padding: 10px 20px;
+  }
+  .srilanka-img-container img,
+  .bangladesh-img-container img {
+    padding: 10px 20px;
+  }
+  .maldive-img-container img,
+  .indonesia-img-container img,
+  .kashmir-img-container img,
+  .bandarban-img-container {
+    width: 100%;
+    border-radius: 16px;
+    padding: 10px 20px;
+  }
+  .maldive,
+  .indonesia,
+  .kashmir,
+  .america,
+  .srilanka,
+  .bandarban,
+  .bangladesh {
+    top: 140px;
+    left: 35%;
+  }
+  .america {
+    left: 26%;
   }
 }
